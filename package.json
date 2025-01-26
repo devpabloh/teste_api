@@ -1,0 +1,12 @@
+{
+  "name": "teste_api",
+  "version": "1.0.0",
+  "description": "Testando o que eu aprendi fazendo o curso de Node.js para criar uma API do zero.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
