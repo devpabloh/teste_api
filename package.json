@@ -4,9 +4,25 @@
   "description": "Testando o que eu aprendi fazendo o curso de Node.js para criar uma API do zero.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsx watch src/server.ts",
+    "start": "tsx src/server.ts",
+    "build": "tsc"
   },
   "keywords": [],
   "author": "Pablo Henrique Ferreira de França",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devpabloh/teste_api.git"
+  },
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/devpabloh/teste_api/issues"
+  },
+  "homepage": "https://github.com/devpabloh/teste_api#readme",
+  "dependencies": {
+    "@types/node": "^25.9.1",
+    "tsx": "^4.22.4",
+    "typescript": "^6.0.3"
+  }
 }
