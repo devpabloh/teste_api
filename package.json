@@ -22,7 +22,10 @@
   "homepage": "https://github.com/devpabloh/teste_api#readme",
   "dependencies": {
     "@types/node": "^25.9.1",
-    "tsx": "^4.22.4",
+    "tsx": "^4.22.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
     "typescript": "^6.0.3"
   }
 }
